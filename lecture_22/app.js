@@ -2,6 +2,7 @@
 var firstname = 'Jane';
 
 (function(lastname) {
+    // scoping
     var firstname = "John"; // protected variable
     console.log(firstname);
     console.log(lastname);
